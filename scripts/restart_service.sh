@@ -1,0 +1,1 @@
+systemctl restart lp && echo -e "\033[32m Service successfully restarted"

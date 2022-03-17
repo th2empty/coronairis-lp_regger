@@ -1,0 +1,12 @@
+port: 9000
+
+logging:
+  format: "text" # if you set value 'json' format will be changed to JSON, else will be used default format
+  logfile: false # if you want to put logs to log file set true; if you set 'false' logs will out in console
+
+db:
+  username: "th2empty"
+  password: "" # you must be type DB_PASSWORD=pass in .env file
+  host: "localhost"
+  port: "3306"
+  dbname: "coronairis"
